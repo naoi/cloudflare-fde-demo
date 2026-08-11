@@ -10,9 +10,19 @@
 	"observability": {
 		"enabled": true
 	},
+	"ai": {
+		"binding": "AI"
+	},
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "cf_fde_demo_db",
+			"database_name": "cf-fde-demo-db",
+			"database_id": "b9ab3845-e405-4cd4-86f6-9868b7366d28"
+		}
 	]
 	/**
 	 * Smart Placement
